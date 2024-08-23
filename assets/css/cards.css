@@ -1,0 +1,108 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.cards .title {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.cards .title h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.cards .description p {
+  font-size: 14px;
+}
+/* PLATAFORMAS */
+.cards.plataforma {
+  padding: 24px;
+  border-radius: var(--radius);
+  background: #fff;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.15);
+  border-top: 3px solid var(--accent);
+}
+.cards.plataforma .img {
+  text-align: center;
+}
+.cards.plataforma .img img {
+  max-width: 100%;
+}
+.cards.plataforma .description {
+  margin-bottom: 16px;
+}
+.cards.plataforma .description p {
+  font-size: 12px;
+}
+.cards.plataforma .button a:first-child {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 575.98px) {
+  .cards.plataforma .button a {
+    font-size: 12px;
+  }
+  .cards.plataforma {
+    max-width: 400px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards.plataforma .description {
+    min-height: 90px;
+    margin-bottom: 0;
+  }
+}
+/* MANUTENÇÃO */
+.cards.manutencao {
+  padding: 42px 32px;
+  margin-bottom: 24px;
+  border-radius: var(--radius);
+  background: rgb(69, 196, 176);
+  background: -o-linear-gradient(
+    60deg,
+    rgba(69, 196, 176, 1) 0%,
+    rgba(78, 225, 134, 1) 100%
+  );
+  background: linear-gradient(
+    30deg,
+    rgba(69, 196, 176, 1) 0%,
+    rgba(78, 225, 134, 1) 100%
+  );
+}
+.cards.manutencao .title {
+  display: inline-block;
+}
+.cards.manutencao .title h3,
+.cards.manutencao .description p {
+  color: var(--text-color);
+}
+.cards.manutencao .title h3 {
+  position: relative;
+}
+.cards.manutencao .title h3::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent);
+  border-radius: var(--radius);
+  position: relative;
+  bottom: -8px;
+}
+.cards.manutencao .description p {
+  font-size: 14px;
+}
+@media screen and (max-width: 575.98px) {
+  .cards.manutencao {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards.manutencao {
+    min-height: 220px;
+  }
+}

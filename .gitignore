@@ -16,6 +16,8 @@
 /readme.html
 /wp-*.php
 /xmlrpc.php
+/assets/forms
+/.DS_Store
 
 # Configuration
 wp-config.php
