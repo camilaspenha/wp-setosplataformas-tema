@@ -13,6 +13,7 @@ Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-
 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 /* PARTS */
 @import url("./assets/css/header.css");
 @import url("./assets/css/footer.css");
@@ -27,8 +28,8 @@ Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-
   --text-color: #343a40;
   --headings: #25404e;
   --color-dark: #141414;
-  --text-font: "Open Sans", sans-serif;
-  --heading-font: "Poppins", sans-serif;
+  --text-font: "Roboto", sans-serif;
+  --heading-font: "Ubuntu", sans-serif;
   --radius: 8px;
 }
 :root :where(a:where(:not(.wp-element-button))) {
@@ -187,6 +188,9 @@ section .description ul li i {
   border-width: 2px;
   color: #fff;
 }
+.btn.btn_outline_light:hover,
+.btn.btn_outline_light:focus,
+.btn.btn_outline_light:active,
 .btn.btn_outline_primary:hover,
 .btn.btn_outline_primary:focus,
 .btn.btn_outline_primary:active,
@@ -197,13 +201,13 @@ section .description ul li i {
   border-color: var(--text-color);
   color: #fff;
 }
-.btn.btn_outline_light:hover,
+/* .btn.btn_outline_light:hover,
 .btn.btn_outline_light:focus,
 .btn.btn_outline_light:active {
-  background-color: var(--accent);
-  border-color: var(--accent);
+  background: var(--text-color);
+  border-color: var(--text-color);
   color: var(--text-color);
-}
+} */
 .btn i {
   position: relative;
   font-size: 16px;
