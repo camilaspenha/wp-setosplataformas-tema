@@ -14,7 +14,7 @@
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5); 
   position: absolute;
   bottom: 0;
   top: 0;
@@ -41,7 +41,7 @@
 #hero p {
   color: white;
 }
-#hero span {
+#hero .boxReverse span {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 8px;
@@ -59,7 +59,7 @@ section#hero .button a{
   width: 220px;
 }
 #hero .button span{
-  color: #fff;
+  /* color: #fff; */
   margin-bottom: unset;
   font-size: 14px;
 }
