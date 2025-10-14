@@ -660,6 +660,15 @@ section .description ul li i {
 #modalOrcamento .modal-content i {
   font-size: 24px;
 }
+#modalOrcamentoLabel a {
+  text-decoration: underline !important;
+  color: #8f8f8e;
+}
+#modalOrcamentoLabel a:active,
+#modalOrcamentoLabel a:focus,
+#modalOrcamentoLabel a:hover{
+  color: var(--accent-hover);
+}
 #modalOrcamento button {
   max-width: 140px;
   margin: 8px;

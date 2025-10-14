@@ -45,7 +45,7 @@
   margin-top: 16px !important;
 }
 .php-email-form #btn_limpar:hover {
-  border-color: var(--accent);
+    color: #fff;
 }
 .php-email-form .form_feedback {
   padding: 0;
